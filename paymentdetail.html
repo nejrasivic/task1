@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="codepool.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Junior Frontend Test</title>
+<br><br>
+</head>
+
+
+<body>
+
+    
+    <div class="topnav" id="myTopnav">
+      <a href="#home"class="fa fa-bars"></a>
+      <p class="name"><b>John Doe</b></p>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      </a>
+    </div>    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+<hr>
+
+<div class="grid-container">
+    <div class="grid-item1">
+      <div class="info">
+          <h1>Your account</h1>
+          <p>You can modify your personal informations here</p><br>
+      </div>
+    </div>
+
+    <div class="grid-item2">
+      <div class="topnav" id="myTopnav">
+          <a href="codepool.html"class="fa fa-user"><br>Personal info</a>
+          <a href="creditcard.html"class="fa fa-cc-visa"><br>Credit card details</a>
+          <a href="paymentdetail.html"class="fa fa-industry"><br>Payment plan</a>
+          <a href="billing.html"class="fa fa-google-wallet"><br>Billing</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         
+          </a>
+        </div>
+  </div>
+
+    <div class="grid-item3">
+      <div class="card1">
+          <div class="container">
+            <h4><b>John Doe</b></h4> 
+            <p>john.doe@email.com</p>
+            <p>387 61 123 456</p> 
+          </div>
+      </div>
+    </div>
+    <div class="grid-item4i">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            /* Float four columns side by side */
+            .column {
+              float: left;
+              width: 25%;
+              padding: 0 10px;
+            }
+            
+            /* Remove extra left and right margins, due to padding */
+            .row {margin: 0 -5px;}
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Responsive columns */
+            @media screen and (max-width: 600px) {
+              .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+              }
+            }
+            
+            /* Style the counter cards */
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+              padding: 16px;
+              text-align: center;
+              background-color: #f1f1f1;
+              border-radius: 25px;
+            }
+            </style>
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="starter.jpg" alt="starter" style="width:50%">
+                <h3>$5 / per month</h3>
+                <p>Up to 5 gatewas <br>
+                Basic support <br>
+                Monthly updates<br>
+                First month free<br>
+            Cancel anytime</p>
+            <button class="button">Select plan</button>
+           
+              </div>
+              
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="business.jpg" alt="business" style="width:50%">
+                <h3>$10 / per month</h3>
+                <p>Up to 10 gatewas <br>
+                    Basic support <br>
+                    Monthly updates<br>
+                    First month free<br>
+                Cancel anytime</p>
+                <button class="button">Select plan</button>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+                <img src="enterprise.jpg" alt="enterprise" style="width:50%">
+                <h3>$15 / per month</h3>
+                <p>Up to 15 gatewas <br>
+                    24/7 support <br>
+                    Monthly updates<br>
+                    First month free<br>
+                Cancel anytime</p>
+                <button class="button">Select plan</button>
+              </div>
+            </div>
+
+          </div>
+           
+
+          </div>
+ 
+    <div class="grid-item6">
+      <h3 id="pi"><b>Payment plan</b></h3>
+      <div class="card1">
+          <div class="container">
+              <p>This is the personal info section of yout account.
+                  Here you can easily change your basic info. After you
+                  finish updating this section please click the save change 
+                  button. 
+              </p> 
+            </div>
+      </div>
+    </div>
+
+    <div class="grid-item8">
+        
+        <p>
+            
+        </p>
+    </div>
+  </div>
+<input class="btn" type="submit" value="Save changes">
+  
+</body>
+
+<br>
+<footer>
+    <style type="text/css">
+        .maindiv{width:auto;height:auto;}
+        .float_left{float:left;}
+        .float_right{float:right;}
+    </style>
+    <div class="maindiv">
+        <span class="float_left"><b>Terms&Conditions|Privacy policy</b></span>
+        <span class="float_right"><b>Version 1.0.2</b></span>
+    </div>
+
+</footer>
+</html>
